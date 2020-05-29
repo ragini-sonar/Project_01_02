@@ -1,0 +1,498 @@
+/* your styles go in this file */
+body {
+    color: dimgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* header common for all pages */
+    .header{
+      background: slategray;
+  }
+  .full_logo_white{
+      width: 140px;
+      margin: 10px 30px 5px ;
+  }
+  .nav_link{
+      float: right;
+      margin: 25px ;
+      margin-right: 45px;
+  }
+  nav a{
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+  }
+  .logo_mrcoffee{
+      width: 180px;
+      text-align: center;
+  }
+  .logo_black_mrcoffee{
+    margin-left: 37%;
+    text-align: center;
+  }
+  
+  /* footer common for all pages */
+.footer{
+    background-color: slategray;
+    color: white; 
+}
+.logo_light{
+    width:40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo_linkedin{
+    width: 20px;
+    padding: 1em;
+}
+.logo_twitter{
+    width: 20px;
+    padding: 1em;
+}
+.logo_facebook{
+    width: 20px;
+    padding: 1em;
+}
+footer p{
+    text-align: center;
+    margin-top: -70px;    
+}
+.footer_images{
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* home page */
+.img_mr_coffee_room{
+    width: 100%;
+    height: 80%;
+}
+.main_image_box{
+    background-image: url(./assets/mr_coffee_room.jpg);
+    width: 90%;
+    height: 98vh;
+    background-size: 90%;
+    margin-left: 5%;
+}
+.image_text{
+    text-shadow: 2px 2px 2px dimgray;
+    text-align: center;
+    color: white; 
+    padding-top: 5%;
+}
+.heading_below_main_image{
+    text-align: center;
+    padding: 3%;
+}
+.flex_container{
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.flex_container h2{
+    text-shadow: 2px 2px 2px black;
+}
+.coffee_icon{
+    width: 40%;
+}
+.hands_icon{
+    width: 40%;
+}
+.history_icon{
+    width: 40%;
+}
+.box_1, .box_2, .box_3{
+    background-color: darkgray;
+    margin: 2%;
+    padding: 2%;
+    width: 30%;
+    box-shadow: 2px 2px 2px gray;
+}
+.hp_button{
+    text-align: center;
+    padding: 2%;
+    margin: 2%;   
+}
+.home_page_button{
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    font-size: x-large;
+    box-shadow: 15% 15% 10% black;
+    border-radius: 10px;
+    width: 25%;
+}
+.program_heading_text{
+    text-align: center;
+}
+.opening_info{
+    padding: 2%;
+    margin: 2%;
+}
+.open_logo{
+    width: 7%;
+    float: left;
+}
+.opening_time_heading{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.text_row{
+    padding: 5%;
+    margin: 2%;
+}
+.text_column{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.text{
+    font-weight: normal;
+}
+.bottom_text_1{
+    text-align: center;
+    padding: 4%;
+    margin-top: 5%;
+    font-size: large;
+}
+.bottom_text_2{
+    font-size: x-large;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* about page*/
+/* first text-image container */
+.text_image_container{
+    margin: 2%;
+    padding: 5%;
+}
+.text_1{
+    width: 50%; 
+    float: left;
+    margin-right: 10%;  
+}
+.text_image_container p{
+    padding: 3%;
+    margin: 2%;
+}
+.text_image_container h2{
+    padding: 2%;
+    margin: 2%;
+}
+.coffee{
+    width: 40%;
+}
+/* secong image-text container */
+.image_text_container{
+    margin: 2%;
+    padding: 2%;
+    margin-bottom: 10%;    
+}
+.room_2_image{
+    width: 40%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+.text_2{
+    padding: 2%;
+    width: 60%;
+    margin: 2%;
+    margin-left: 40%;
+}
+.image_text_container h2{
+    margin: 2%;
+    padding: 2%;
+}
+.image_text_container p{
+    padding: 2%;
+    margin: 2%;    
+}
+
+/* contact us page */
+.contact_heading{
+    text-align: center;
+    font-size: x-large;
+    padding: 2%;
+    margin: 2%;
+}
+.address{
+    margin-left: 25%;
+}
+.address_name{
+    font-weight: bold;
+}
+.contact_info{
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.map{
+   width: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 5%;
+}
+
+/* contact page form */
+form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+}
+input{
+    padding: 2%;
+     width: 100%; 
+     background-color: lightgray; 
+     border: none;    
+}
+textarea{
+    background-color: lightgray;
+    border: none;
+    width: 100%;
+    padding: 2%;
+    resize: none;
+}
+form p{
+    font-size: x-large;
+    text-align: center;
+}
+form button{
+    background-color: slategray;
+    color: white;
+    width: 25%;
+    padding: 2%;
+    margin: 2%;
+    font-size: large;
+    box-shadow: 15% 15% 10% black;
+    border-radius: 10px;
+    margin-left: 37%;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+/* form submit pop up */
+.popUp{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.popUp_content{
+    width: 55%;
+    height: 30%;
+    background-color: white;
+    text-align: center;
+}
+.popup_logo{
+    width: 7%;
+    margin: 5%;
+    float: left;
+}
+.popUp h2{
+    text-align: center;
+    font-size: medium;
+    padding: 1%;
+    margin: 2%;
+    margin-right: 17%;
+}
+.popUp p{
+    font-size: small;
+    padding: 1%;
+    margin: 2%;
+    text-align: left;
+}
+#close_btn{
+    width: 20%;
+    padding: 2%;
+    margin: 2%;
+    font-size: large;
+    background-color: slategray;
+    color: white;
+    border-radius: 10px;
+}
+.required:after{
+    content: " *";
+} 
+    
+/* media query for mobie phone*/
+@media only screen and (max-width: 480px){ 
+    /* header */
+    .full_logo_white { 
+        width: 70px;
+        margin: 2%;
+  }
+  .nav_link{
+      font-size: 7px;
+      padding: 1%;
+      margin: 1%;
+      margin-top: 3%;
+  }
+  .logo_black_mrcoffee{
+      text-align: center;
+      margin-left: 5%;
+  }
+  .logo_mrcoffee{
+      width: 25%;
+  }
+  /* footer */
+  .logo_light{
+      width: 25px;   
+  }
+  .logo_linkedin{
+      width: 15px;
+  }
+  .logo_twitter{
+    width: 15px;
+  }
+  .logo_facebook{
+    width: 15px;
+  }
+  footer p{
+      font-size: xx-small;
+      padding: 1%;
+  }
+  /* home page */
+  .main_image_box{
+      height: 27vh;
+  }
+  .image_text{
+      font-size: medium;
+  }
+  .heading_below_main_image{
+      font-size: x-small;
+  }
+  .flex_container{
+      margin-right: 5%;
+  }
+  .flex_container h2{
+      font-size: x-small;
+  }
+  .flex_container p{
+      font-size: 5px;
+  }
+  .coffee_icon{
+      width: 30%;
+  }
+  .hands_icon{
+    width: 30%;
+  }
+  .history_icon{
+    width: 30%;
+  }
+  .home_page_button{
+      font-size: x-small ;
+  }
+  .program_heading_text{
+      font-size: large;
+  }
+  .home_page_button{
+     width: 30%; 
+  }
+  .opening_time_heading{
+      font-size: small;
+  }
+  .text_row{
+      padding: 5%;
+      margin: 2%;
+      margin-top: 5%;
+  }
+  .text_column{
+      font-size: small;
+  }
+  .bottom_text_1{
+      font-size: small;
+      margin-top: 30%;
+  }
+  .bottom_text_2{
+      font-size: medium;
+      margin: 2%;
+      margin-bottom: 5%;
+  }
+  /* about page */
+  .coffee{
+    width: 40%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .text_image_container h2{
+    font-size: smaller;
+    text-align: center;
+  }
+  .text_image_container p{
+    font-size: 7px;
+    text-align: center;
+  }
+ .room_2_image{
+    width: 40%;
+    text-align: center;
+    margin-top: 10%;
+  }
+ .image_text_container h2{
+    font-size: smaller;
+    text-align: center;
+  }
+  .image_text_container p{
+    font-size: 7px;
+    text-align: center;
+  }
+  /* contact us page */
+  .contact_heading{
+      font-size: small;
+  }
+  .address{
+    font-size: xx-small;
+  }
+  .contact_info p{
+    font-size: xx-small;
+  }
+  form button{
+      width: 40%;
+      font-size: x-small;
+  }
+  .popUp h2{
+      font-size: small;
+  }
+  .popUp p{
+      font-size: xx-small;
+  }
+  #close_btn{
+      width: 25%;
+      font-size: x-small;
+  }
+}
+
+/* media querry for tablet */
+@media only screen
+and (min-device-width: 768px)
+and (max-width: 1024px){
+    /* header */
+    .logo_mrcoffee{
+        margin-right: 45%;
+    }
+    .main_image_box{
+        height: 38vh;
+    }
+}
+
+
